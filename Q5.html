@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Solution</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+        }
+        .image{
+            width: 400px;
+            height: 400px;
+            filter: blur(15px);
+        }
+        .image:hover{
+            filter: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hover To Reveal The Image</h1>
+        <img src="./Q4img.png" alt="scenery-image" class="image">
+    </div>
+</body>
+</html>
